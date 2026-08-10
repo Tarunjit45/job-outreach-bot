@@ -1,0 +1,99 @@
+# =========================================================
+# EDIT THIS FILE to control what the bot searches for and
+# what email it sends. No code changes needed for normal use.
+# =========================================================
+
+# What kind of startups to look for. Add/remove as many lines
+# as you want — each one is a separate search the bot runs.
+search_queries:
+  - "AI startup hiring software engineer intern"
+  - "machine learning startup careers page India"
+  - "early stage AI startup jobs"
+  - "AI agents startup hiring engineer"
+
+# Domains to ignore in search results — job boards / aggregators,
+# not actual startup homepages. Add more if you see junk in reports.
+exclude_domains:
+  - linkedin.com
+  - indeed.com
+  - glassdoor.com
+  - wellfound.com
+  - angel.co
+  - naukri.com
+  - internshala.com
+  - ycombinator.com
+  - twitter.com
+  - x.com
+  - facebook.com
+  - instagram.com
+  - youtube.com
+  - medium.com
+  - github.com
+  - crunchbase.com
+  - wikipedia.org
+
+# How many NEW companies to discover per day (keep this modest —
+# quality over quantity, and it keeps each run fast).
+daily_new_candidates: 10
+
+# Max emails actually sent per day (safety cap).
+daily_send_limit: 8
+
+resume_path: "resume.pdf"
+
+# --- Sender / SMTP settings ---
+sender_email: "tarunjit.biswas@yahoo.com"
+smtp_host: "smtp.mail.yahoo.com"
+smtp_port: 465
+
+# --- Email content ---
+email_subject: "AI / Software Engineering — Looking for My First Real Industry Opportunity"
+
+email_body: |
+  Dear Hiring Manager,
+
+  I'm Tarunjit Biswas, a Computer Science Engineering student and AI-augmented software developer. I'm writing to you directly because I'm looking for my first serious opportunity to work inside a real engineering team.
+
+  I want to be straightforward about where I am in my career: I'm a fresher. I don't have years of industry experience, and I'm not going to pretend that I do. What I do have is a strong habit of building, learning quickly, and using modern AI development tools to turn ideas and problems into working software.
+
+  I've built projects across AI, software engineering, developer tooling, cloud infrastructure, and automation, including:
+
+  Conflux AI — AI automation and digital solutions platform
+  https://www.confluxai.in/
+
+  DataForge Enterprise GCP Platform — Enterprise data engineering platform involving PySpark, BigQuery, AlloyDB migration/CDC, Terraform, CI/CD, observability, and production-readiness engineering.
+  https://github.com/Tarunjit45/dataforge-enterprise-gcp-platform
+
+  AgentWatch — AI-agent observability and cost-monitoring platform.
+  https://github.com/Tarunjit45/agentwatch
+
+  PDF Knowledge Base RAG — Multi-service RAG application with document processing, vector search, conversational memory, and source citations.
+  https://github.com/Tarunjit45/pdf-knowledge--base-rag
+
+  I use Claude, ChatGPT, Gemini, and other AI tools heavily to increase my development speed. But I don't see AI as a replacement for engineering. I use it to move faster while taking responsibility for the architecture, implementation, integration, testing, debugging, and deployment.
+
+  What I'm looking for now is simple.
+
+  I want to work with people who are better than me.
+
+  I want to experience how real engineering teams design systems, handle production problems, make technical decisions, work with customers, deal with deadlines, maintain software, and turn imperfect ideas into products that real people use.
+
+  I'm willing to start at a junior, intern, or early-engineer level and earn responsibility through my work. I'm not expecting a senior title or pretending I know everything.
+
+  In return, if you give me the opportunity, I will take the work seriously. I'm prepared to put in the effort, learn from the people around me, take ownership of problems, and contribute wherever I can. My goal is to become genuinely useful to the team, not simply to have a company name on my resume.
+
+  I'm also looking for a fair monthly salary that allows me to cover my basic living and food expenses while I focus on the work and learning.
+
+  I've attached my resume, but I'd much rather have you judge me by what I can actually build. If useful, give me a technical task, a small product problem, or something your team is currently struggling with. I'm happy to work on it and show you what I can do.
+
+  If you have an opportunity where someone with my background could contribute and grow, I would genuinely appreciate the chance to speak with you.
+
+  Thank you for reading.
+
+  Best regards,
+  Tarunjit Biswas
+  Computer Science Engineering
+  +91 9641986575
+  LinkedIn: https://www.linkedin.com/in/tarunjit-biswas-a5248131b
+  GitHub: https://github.com/Tarunjit45
+  Portfolio: https://my-portfolio-7jtm.vercel.app/
