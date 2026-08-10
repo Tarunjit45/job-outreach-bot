@@ -1,1 +1,14 @@
-{}
+{
+  "aistartupjobs.com": {
+    "reason": "no_email_found"
+  },
+  "glassdoor.co.in": {
+    "reason": "no_email_found"
+  },
+  "startup.jobs": {
+    "reason": "no_email_found"
+  },
+  "trueup.io": {
+    "reason": "no_email_found"
+  }
+}

@@ -1,1 +1,32 @@
-{}
+{
+  "duckduckgo.com": {
+    "company": "Duckduckgo",
+    "date": "2026-08-10",
+    "email": "press@duckduckgo.com"
+  },
+  "f6s.com": {
+    "company": "F6s",
+    "date": "2026-08-10",
+    "email": "support@f6s.com"
+  },
+  "fastaijobs.com": {
+    "company": "Fastaijobs",
+    "date": "2026-08-10",
+    "email": "hi@impactbridge.ai"
+  },
+  "foundit.in": {
+    "company": "Foundit",
+    "date": "2026-08-10",
+    "email": "info@foundit.in"
+  },
+  "michaelpage.co.in": {
+    "company": "Michaelpage",
+    "date": "2026-08-10",
+    "email": "enquiries@michaelpage.co.in"
+  },
+  "startups.gallery": {
+    "company": "Startups",
+    "date": "2026-08-10",
+    "email": "hi@startups.gallery"
+  }
+}
