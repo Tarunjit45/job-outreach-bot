@@ -1,4 +1,7 @@
 {
+  "aistartup.jobs": {
+    "reason": "no_email_found"
+  },
   "aistartupjobs.com": {
     "reason": "no_email_found"
   },
@@ -21,6 +24,9 @@
     "reason": "no_email_found"
   },
   "startup.jobs": {
+    "reason": "no_email_found"
+  },
+  "topstartups.io": {
     "reason": "no_email_found"
   },
   "trueup.io": {
